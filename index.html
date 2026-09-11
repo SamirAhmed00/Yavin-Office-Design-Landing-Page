@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO -->
+    <title>Yavin Office Design — Transforming Spaces Into Inspiration</title>
+    <meta name="description" content="Yavin Office Design specializes in transforming office spaces into inspiring, functional, and professionally designed environments. Premium interior architecture." />
+    <meta property="og:title" content="Yavin Office Design" />
+    <meta property="og:description" content="Transforming office spaces into inspiring and functional environments." />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#1a1f2e" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,300;1,9..40,400&display=swap" rel="stylesheet" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="images/favicon.png" />
+
+    <!-- Fallback: if GSAP never loads, show everything -->
+    <noscript>
+      <style>
+        .hero-image-wrapper,
+        .hero-eyebrow,
+        .hero-description,
+        .hero-ctas,
+        .scroll-indicator {
+          opacity: 1 !important;
+        }
+        .image-reveal,
+        .image-reveal-right {
+          clip-path: inset(0 0 0 0) !important;
+        }
+      </style>
+    </noscript>
+  </head>
+  <body>
+    <div class="page-transition-overlay" aria-hidden="true"></div>
+
+    <!-- ==================== NAVBAR ==================== -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-custom" role="navigation" aria-label="Main navigation">
+      <div class="container">
+        <a class="navbar-brand" href="index.html" aria-label="Yavin Office Design — Home">
+          <img src="images/logo.svg" alt="Yavin Office Design logo" class="navbar-logo" width="124" height="36" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item"><a href="#hero" class="nav-link active">Home</a></li>
+            <li class="nav-item"><a href="#details-a" class="nav-link">Details</a></li>
+            <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link nav-link-cta">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ==================== HERO ==================== -->
+    <header class="hero-section position-relative overflow-hidden" id="hero">
+      <div class="hero-bg-pattern position-absolute"></div>
+      <div class="container position-relative hero-container">
+        <div class="row align-items-center hero-row">
+          <div class="col-lg-6 hero-text-col">
+            <span class="hero-eyebrow">Interior Architecture</span>
+            <h1 class="hero-title">The <em>Perfect</em> Office Space</h1>
+            <p class="hero-description">We specialize in transforming office spaces into inspiring and functional environments. Let us bring your vision to life.</p>
+            <div class="hero-ctas">
+              <a href="#details-a" class="btn btn-hero-primary">More Details</a>
+              <a href="#contact" class="btn btn-hero-outline">Contact Us</a>
+            </div>
+          </div>
+          <div class="col-lg-6 hero-image-col">
+            <div class="hero-image-wrapper">
+              <img src="images/header.webp" alt="Modern office interior with clean design and natural lighting" class="img-fluid hero-image" width="720" height="540" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Scroll Indicator -->
+      <div class="scroll-indicator" aria-hidden="true">
+        <div class="scroll-indicator-line"></div>
+        <span class="scroll-indicator-text">Scroll</span>
+      </div>
+    </header>
+
+    <!-- ==================== STATS ==================== -->
+    <section class="stats-section" id="stats" aria-label="Company statistics">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <h2 class="stat-number" data-target="328">0</h2>
+            <p class="stat-label">Happy Customers</p>
+          </div>
+          <div class="stat-item">
+            <h2 class="stat-number" data-target="285">0</h2>
+            <p class="stat-label">Issues Solved</p>
+          </div>
+          <div class="stat-item">
+            <h2 class="stat-number" data-target="159">0</h2>
+            <p class="stat-label">Good Reviews</p>
+          </div>
+          <div class="stat-item">
+            <h2 class="stat-number" data-target="128">0</h2>
+            <p class="stat-label">Case Studies</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== DETAILS A ==================== -->
+    <section class="section details-a-section bg-light" id="details-a" aria-labelledby="details-a-heading">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2 text-center">
+            <div class="section-header-centered">
+              <span class="section-eyebrow">Who We Are</span>
+              <h2 id="details-a-heading">Creating <em>Inspiring</em> Office Spaces</h2>
+              <p class="section-lead">At our company, designing office spaces is our passion. We take pride in our completed projects that reflect our dedication and expertise in creating functional and aesthetically pleasing work environments.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== DETAILS B ==================== -->
+    <section class="section details-section" id="details-b" aria-labelledby="details-b-heading">
+      <div class="container">
+        <div class="row details-grid">
+          <div class="col-lg-6 details-image-col">
+            <div class="details-image-container image-reveal">
+              <img src="images/details-1.webp" alt="Office interior showcasing tailored design with custom furniture" class="img-fluid" width="640" height="480" loading="lazy" />
+            </div>
+          </div>
+          <div class="col-lg-6 details-text-col">
+            <h2 id="details-b-heading">Create <em>Unique</em> Office Spaces</h2>
+            <ul class="checklist" role="list">
+              <li class="checklist-item">
+                <i class="fas fa-check" aria-hidden="true"></i>
+                <p>Our approach ensures that every office space is tailored to the unique needs and preferences of our clients. No two spaces look the same.</p>
+              </li>
+              <li class="checklist-item">
+                <i class="fas fa-check" aria-hidden="true"></i>
+                <p>We pay attention to every detail, ensuring that the design elements, furniture, and decor create a harmonious and inspiring atmosphere.</p>
+              </li>
+              <li class="checklist-item">
+                <i class="fas fa-check" aria-hidden="true"></i>
+                <p>Our team of experts guarantees that your office space will be a reflection of your brand identity and company culture.</p>
+              </li>
+              <li class="checklist-item">
+                <i class="fas fa-check" aria-hidden="true"></i>
+                <p>Existence as discourse is. Pleasure friendly at marriage blessing or should.</p>
+              </li>
+            </ul>
+            <a href="article.html" class="btn btn-primary-custom">Get Started <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SERVICES ==================== -->
+    <section class="section services-section" id="services" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="section-header-left">
+              <span class="section-eyebrow">What We Do</span>
+              <h2 id="services-heading"><em>Services</em> That We Offer</h2>
+              <p class="section-body">At our company, we provide a wide range of services to meet all your office design needs. With our expertise and attention to detail, we ensure that every aspect of your office space is carefully considered and executed.</p>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="services-grid">
+              <div class="service-card">
+                <div class="service-icon"><i class="fas fa-rocket" aria-hidden="true"></i></div>
+                <h3 class="service-title">Space Analysis & Planning</h3>
+              </div>
+              <div class="service-card">
+                <div class="service-icon"><i class="fas fa-palette" aria-hidden="true"></i></div>
+                <h3 class="service-title">Design & Color Choosing</h3>
+              </div>
+              <div class="service-card">
+                <div class="service-icon"><i class="fas fa-truck" aria-hidden="true"></i></div>
+                <h3 class="service-title">Materials & Delivery</h3>
+              </div>
+              <div class="service-card">
+                <div class="service-icon"><i class="fas fa-tools" aria-hidden="true"></i></div>
+                <h3 class="service-title">Execute The Concept</h3>
+              </div>
+              <div class="service-card">
+                <div class="service-icon"><i class="fas fa-cloud-sun" aria-hidden="true"></i></div>
+                <h3 class="service-title">Create A Great Atmosphere</h3>
+              </div>
+              <div class="service-card">
+                <div class="service-icon"><i class="fas fa-chart-line" aria-hidden="true"></i></div>
+                <h3 class="service-title">Evaluation & Reporting</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== DETAILS 2 ==================== -->
+    <section class="section details2-section bg-light" id="details-2" aria-labelledby="details2-heading">
+      <div class="container">
+        <div class="row details-grid details-grid-reverse">
+          <div class="col-lg-6 details-text-col">
+            <div class="text-container-left">
+              <span class="section-eyebrow">Productivity</span>
+              <h2 id="details2-heading">Transform Your Workspace For Enhanced <em>Productivity</em></h2>
+              <p class="section-body mb-3">A thoughtfully designed and well-organized office space has a profound impact on productivity and employee satisfaction. It sets the stage for seamless collaboration, efficient workflows, and creative inspiration.</p>
+              <p class="section-body mb-4">At our company, we specialize in creating tailored office environments that maximize productivity and elevate the overall work experience.</p>
+              <a href="#contact" class="btn btn-primary-custom">Get Started <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-6 details-image-col">
+            <div class="details-image-container image-reveal image-reveal-right">
+              <img src="images/details-2.webp" alt="Productive modern workspace with ergonomic setup and natural light" class="img-fluid" width="640" height="480" loading="lazy" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CTA BANNER ==================== -->
+    <section class="section cta-banner-section" aria-labelledby="cta-heading">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 offset-lg-1 text-center">
+            <h2 id="cta-heading" class="cta-heading">Our team of highly skilled designers and interior construction workers can deliver above your level of expectations</h2>
+            <a href="#contact" class="btn btn-cta">Get Quote</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== PROJECTS ==================== -->
+    <section class="section projects-section" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="section-header-centered mb-5">
+          <span class="section-eyebrow">Portfolio</span>
+          <h2 id="projects-heading">Some Of Our <em>Projects</em></h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-image-wrapper">
+              <img src="images/project-1.webp" alt="Modern banking office with open floor plan" class="img-fluid project-image" width="480" height="360" loading="lazy" />
+              <div class="project-overlay">
+                <span class="project-overlay-label">View Project</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Office Space For Banking</h3>
+              <p class="project-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, impedit.</p>
+              <a href="article.html" class="project-link">Read More <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-image-wrapper">
+              <img src="images/project-2.webp" alt="Startup office with collaborative workspace" class="img-fluid project-image" width="480" height="360" loading="lazy" />
+              <div class="project-overlay">
+                <span class="project-overlay-label">View Project</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Planning And Design For Startup</h3>
+              <p class="project-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, impedit.</p>
+              <a href="article.html" class="project-link">Read More <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-image-wrapper">
+              <img src="images/project-3.webp" alt="Office renovation with updated colors and materials" class="img-fluid project-image" width="480" height="360" loading="lazy" />
+              <div class="project-overlay">
+                <span class="project-overlay-label">View Project</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Colors & Materials Update</h3>
+              <p class="project-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, impedit.</p>
+              <a href="article.html" class="project-link">Read More <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-image-wrapper">
+              <img src="images/project-4.webp" alt="Floor plan analysis and design" class="img-fluid project-image" width="480" height="360" loading="lazy" />
+              <div class="project-overlay">
+                <span class="project-overlay-label">View Project</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Analysis And Floor Design</h3>
+              <p class="project-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, impedit.</p>
+              <a href="article.html" class="project-link">Read More <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-image-wrapper">
+              <img src="images/project-5.webp" alt="Decorated office space with branded elements" class="img-fluid project-image" width="480" height="360" loading="lazy" />
+              <div class="project-overlay">
+                <span class="project-overlay-label">View Project</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Office Space Decoration</h3>
+              <p class="project-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, impedit.</p>
+              <a href="article.html" class="project-link">Read More <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-image-wrapper">
+              <img src="images/project-6.webp" alt="Colorful kindergarten playground design" class="img-fluid project-image" width="480" height="360" loading="lazy" />
+              <div class="project-overlay">
+                <span class="project-overlay-label">View Project</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Playground For Kindergarten</h3>
+              <p class="project-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, impedit.</p>
+              <a href="article.html" class="project-link">Read More <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TESTIMONIALS ==================== -->
+    <section class="section testimonials-section bg-light" aria-label="Client testimonials">
+      <div class="container">
+        <div class="section-header-centered mb-5">
+          <span class="section-eyebrow">Testimonials</span>
+          <h2>What Our Clients Say</h2>
+        </div>
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" aria-roledescription="carousel" aria-label="Testimonial slides">
+          <div class="carousel-inner">
+            <div class="carousel-item active" role="group" aria-roledescription="slide" aria-label="Testimonial 1 of 3">
+              <div class="testimonial-slide">
+                <div class="testimonial-quote-mark" aria-hidden="true">&ldquo;</div>
+                <blockquote class="testimonial-blockquote">
+                  <p>Expense bed any sister depend changer off piqued one. Contented continued any happiness instantly objection yet her allowance. Use correct day new brought tedious. By come this been in. Kept easy or sons my it how about some words here done.</p>
+                </blockquote>
+                <img src="images/testimonial-1.webp" alt="Marlene Visconte" class="testimonial-avatar rounded-circle" width="80" height="80" loading="lazy" />
+                <div class="testimonial-author">
+                  <div class="testimonial-name">Marlene Visconte</div>
+                  <div class="testimonial-role">General Manager &mdash; Scouter</div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" role="group" aria-roledescription="slide" aria-label="Testimonial 2 of 3">
+              <div class="testimonial-slide">
+                <div class="testimonial-quote-mark" aria-hidden="true">&ldquo;</div>
+                <blockquote class="testimonial-blockquote">
+                  <p>Expense bed any sister depend changer off piqued one. Contented continued any happiness instantly objection yet her allowance. Use correct day new brought tedious. By come this been in. Kept easy or sons my it how about some words here done.</p>
+                </blockquote>
+                <img src="images/testimonial-2.webp" alt="John Spiker" class="testimonial-avatar rounded-circle" width="80" height="80" loading="lazy" />
+                <div class="testimonial-author">
+                  <div class="testimonial-name">John Spiker</div>
+                  <div class="testimonial-role">General Manager &mdash; Scouter</div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" role="group" aria-roledescription="slide" aria-label="Testimonial 3 of 3">
+              <div class="testimonial-slide">
+                <div class="testimonial-quote-mark" aria-hidden="true">&ldquo;</div>
+                <blockquote class="testimonial-blockquote">
+                  <p>Expense bed any sister depend changer off piqued one. Contented continued any happiness instantly objection yet her allowance. Use correct day new brought tedious. By come this been in. Kept easy or sons my it how about some words here done.</p>
+                </blockquote>
+                <img src="images/testimonial-3.webp" alt="Stella Virtuoso" class="testimonial-avatar rounded-circle" width="80" height="80" loading="lazy" />
+                <div class="testimonial-author">
+                  <div class="testimonial-name">Stella Virtuoso</div>
+                  <div class="testimonial-role">General Manager &mdash; Scouter</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev" aria-label="Previous testimonial">
+            <i class="fas fa-chevron-left" aria-hidden="true"></i>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next" aria-label="Next testimonial">
+            <i class="fas fa-chevron-right" aria-hidden="true"></i>
+          </button>
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Go to slide 1"></button>
+            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Go to slide 2"></button>
+            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Go to slide 3"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT ==================== -->
+    <section class="section contact-section" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="row contact-grid">
+          <div class="col-lg-6 contact-image-col d-none d-md-block">
+            <div class="contact-image-container image-reveal">
+              <img src="images/contact.webp" alt="Team meeting in a modern conference room" class="img-fluid" width="640" height="480" loading="lazy" />
+            </div>
+          </div>
+          <div class="col-lg-6 contact-form-col">
+            <h2 id="contact-heading">Contact Us For A Quote</h2>
+            <form action="" class="contact-form" novalidate>
+              <div class="form-group">
+                <label for="contact-name" class="visually-hidden">Your Name</label>
+                <input type="text" id="contact-name" class="form-control" placeholder="Enter name" autocomplete="name" required />
+              </div>
+              <div class="form-group">
+                <label for="contact-email" class="visually-hidden">Your Email</label>
+                <input type="email" id="contact-email" class="form-control" placeholder="Enter email" autocomplete="email" required />
+              </div>
+              <div class="form-group">
+                <label for="contact-phone" class="visually-hidden">Your Phone</label>
+                <input type="tel" id="contact-phone" class="form-control" placeholder="Enter phone" autocomplete="tel" />
+              </div>
+              <div class="form-group">
+                <label for="contact-message" class="visually-hidden">Your Message</label>
+                <textarea id="contact-message" rows="6" class="form-control" placeholder="Enter message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer-section" role="contentinfo">
+      <div class="container">
+        <div class="row footer-grid">
+          <div class="col-md-4 footer-col">
+            <h4 class="footer-heading">About Yavin</h4>
+            <p class="footer-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, possimus! Similique asperiores aliquid accusantium laudantium.</p>
+          </div>
+          <div class="col-md-4 footer-col">
+            <h4 class="footer-heading">Links</h4>
+            <ul class="footer-links list-unstyled">
+              <li><span class="footer-link-category">Important:</span> <a href="">Terms &amp; Conditions</a>, <a href="">Privacy Policy</a></li>
+              <li><span class="footer-link-category">Useful:</span> <a href="">Icon Library</a>, <a href="">Illustrations</a></li>
+              <li><span class="footer-link-category">Menu:</span> <a href="#hero">Home</a>, <a href="#details-a">Details</a>, <a href="#services">Services</a>, <a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 footer-col">
+            <h4 class="footer-heading">Connect</h4>
+            <div class="footer-socials">
+              <a href="" aria-label="Facebook"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+              <a href="" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+              <a href="" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+              <a href="" aria-label="Pinterest"><i class="fab fa-pinterest" aria-hidden="true"></i></a>
+            </div>
+            <p class="footer-text mt-3">We would love to hear from you</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Yavin Office Design. All rights reserved.</p>
+          <p class="footer-credit">
+            Built by <strong class="footer-credit-name">Samir Ahmed</strong>
+            <span class="footer-credit-icons">
+              <a href="https://github.com/SamirAhmed00" target="_blank" rel="noopener noreferrer" aria-label="Samir Ahmed on GitHub">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/samir-ahmed00/" target="_blank" rel="noopener noreferrer" aria-label="Samir Ahmed on LinkedIn">
+                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+              </a>
+            </span>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" aria-label="Back to top" id="backToTop">
+      <i class="fas fa-chevron-up" aria-hidden="true"></i>
+    </button>
+
+    <!--
+      SCRIPT LOADING ORDER (all at end of body, NO defer):
+      1. Bootstrap first (needed for mobile menu, carousel)
+      2. GSAP core
+      3. GSAP ScrollTrigger plugin
+      4. App script last (uses everything above)
+    -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
